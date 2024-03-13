@@ -37,10 +37,34 @@ The orders management section simplifies the process of managing customer orders
 The calendar view provides a visual representation of order schedules, facilitating better planning and organization. Users can easily identify order delivery dates and track order statuses by clicking on specific dates. This feature improves operational efficiency and helps in optimizing delivery schedules.
 
 
-### ScreenShots
+## ScreenShots
 
-# Dashboard
-![This is a Image of Dashboard](erp-system/assets/Homepage.png)
+### Dashboard
+![This is a Image of Dashboard](assets/Homepage.png)
+
+### Products Management
+![This is a Image of ProductsManagement](assets/ProductManagement.png)
+
+### Adding New Products
+![This is a Image of Adding Product](assets/AddProduct.png)
+
+### Editing Product Details
+![This is a Image of Editing Product Details](assets/EditProduct.png)
+
+### Viewing and managing order details
+![This is a Image of Viewing and managing order details](assets/OrderManagement.png)
+
+### Viewing specific order details
+![This is a Image of Viewing specific order details](assets/OrderDetails.png)
+
+### Calendar Specific order details
+![This is a Image of Calendar Specific order details](assets/CalendarView.png)
+
+### Select Date for veiwing order details of a specific date
+![This is a Image of Calendar Specific order details](assets/SelectDate.png)
+
+### The orders for selected date
+![This is a Image of Calendar Specific order details](assets/CalendarViewDetails.png)
 
 
 
@@ -48,7 +72,9 @@ The calendar view provides a visual representation of order schedules, facilitat
 
 
 
-### Feedback
+
+
+## Feedback
 If you encounter any issues, bugs, or have feedback to share, please don't hesitate to [open an issue](https://github.com/MahapatroHari/erp-system/issues) on GitHub.
 
 
