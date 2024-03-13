@@ -1,7 +1,7 @@
   /* App.css */
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  
+
   body {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -9,7 +9,7 @@
     padding: 0;
     background-color: #FDE5D4;
     color: #343a40;
-    
+
   }
 
   .container {
@@ -48,11 +48,13 @@
     background-color: #0056b3;
   }
 
-  /* Table styles */
+  /* Table styles  Not Workin */
+  /*   
   .table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    
   }
 
   .table th,
@@ -66,6 +68,8 @@
     background-color: #007bff;
     color: #fff;
   }
+
+   */
 
   /* Form styles */
   .form-group {
@@ -148,6 +152,10 @@
     border: 1px solid #000;
   }
 
+  .order-table {
+    margin-bottom: 40px;
+  }
+
   .order-table th,
   .order-table td,
   .product-table th,
@@ -162,8 +170,11 @@
     color: #fff;
   }
 
-  .order-table td,.product-table td,.metrics-table td,.order-table select {
-    background-color:  #D6CC99;
+  .order-table td,
+  .product-table td,
+  .metrics-table td,
+  .order-table select {
+    background-color: #D6CC99;
   }
 
   .order-table td button,
@@ -296,7 +307,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color:  #D6CC99;
+    background-color: #D6CC99;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -329,7 +340,7 @@
     text-align: center;
   }
 
-  .calendar-select input{
+  .calendar-select input {
     background-color: #dc3545;
     color: white;
   }
@@ -426,11 +437,11 @@
   }
 
 
-  form input{
+  form input {
     background-color: #00152440;
   }
 
-  
+
 
   /* Table margins */
   .table {
@@ -613,7 +624,7 @@
     }
 
     #menu li {
-      padding: 20px;
+      padding: 30px;
       font-size: 18px;
       border-bottom: 1px solid #ccc;
     }
@@ -685,27 +696,95 @@
 
 
   /*  */
-  table td{
+  table td {
     text-align: center;
   }
 
 
-  form h2{
+  form h2 {
     text-align: center;
   }
 
-  .modal-content h2{
-    text-align: center; 
+  .modal-content h2 {
+    text-align: center;
+  }
+
+  #menu a {
+    color: black;
+    font-size: 25px;
   }
 
 
 
 
 
+  /* Table Responsive */
 
+  @media (max-width: 700px) {
+    div table {
+      table-layout: fixed;
+      width: 100%;
 
-  @media (max-width:699){
-    body{
-      width: 100vw;
+      margin-left: 20px;
+      margin-right: 20px;
     }
-  } 
+
+
+    .filtered-orders table {
+      margin: 0;
+    }
+
+    table {
+      border: 5px solid black;
+    }
+
+    table tr {
+      font-size: 10px;
+    }
+
+    .order-table select,
+    td button {
+      font-size: 8px;
+      width: -webkit-fill-available;
+      margin-bottom: 5px;
+
+    }
+
+
+    .calendar-select input {
+      background-color: #dc3545;
+      color: white;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    .metrics-table {
+      width: 90vw;
+    }
+
+    .metrics-table table {
+      width: 100%;
+    }
+
+    .calendar-view-container {
+      max-width: 300px;
+      margin-top: 200px;
+    }
+
+
+    li {
+      text-align: center;
+    }
+
+
+    .ProductForm-container form {
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+
+  }
