@@ -1,7 +1,11 @@
 ## Simplified ERP System with React
 
 ### Overview
+
 This front-end application serves as a management system for products and orders. It includes a dashboard for summarizing key metrics, a products management section for CRUD operations on products, an orders management section for handling orders, and a calendar view to visualize order schedules.
+
+You can access the live application [here](https://entnt-erp.netlify.app/).
+
 
 ### Setup Instructions
 1. **Clone the repository**: Begin by cloning the repository to your local machine using the following command:
