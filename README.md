@@ -1,4 +1,4 @@
-## Simplified ERP System with React
+## ERP System with React
 
 ### Overview
 
